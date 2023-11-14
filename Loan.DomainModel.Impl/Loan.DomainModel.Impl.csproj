@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net7.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Loan.Data\Loan.Data.csproj" />
+      <ProjectReference Include="..\Loan.DomainModel\Loan.DomainModel.csproj" />
+      <ProjectReference Include="..\Loan.Logic\Loan.Logic.csproj" />
+    </ItemGroup>
+
+</Project>

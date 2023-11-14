@@ -1,0 +1,10 @@
+﻿services:
+  pensionwebapplication:
+    image: pensionwebapplication
+    build:
+      context: .
+      dockerfile: PensionWebApplication/Dockerfile
+    ports:
+      - 5001:80
+    environment:
+      - ASPNETCORE_URLS=http://+:80;http://+:5001
