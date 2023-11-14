@@ -1,7 +1,19 @@
 # LoanAPI
 
-# Endpoints
-POST - http://localhost:5001/Loan
+## Installation
+
+- Run the command `git clone https://github.com/Omrisha/LoanAPI`
+- Open the SLN file in Visual Studio/Rider/Visual Studio Code
+
+# Option #1
+- Run the project (or  `dotnet run` if in VSCode) - to run with kestrel.
+
+# Option #2 - Docker
+- Run `docker compose`.
+
+
+## Endpoints
+POST - `http://localhost:5001/Loan`
 JSON:
 ```
 {
