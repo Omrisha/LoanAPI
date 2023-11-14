@@ -3,7 +3,7 @@
     image: pensionwebapplication
     build:
       context: .
-      dockerfile: PensionWebApplication/Dockerfile
+      dockerfile: LoanWebApplication/Dockerfile
     ports:
       - 5001:80
     environment:
